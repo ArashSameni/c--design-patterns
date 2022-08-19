@@ -1,8 +1,9 @@
 namespace DesignPatterns.State;
 
-public static class Usage
+[PatternName("State")]
+public class Runner : IRunnable
 {
-    public static void Run()
+    public void Run()
     {
         var canvas = new Canvas(new Brush());
         canvas.MouseDown();

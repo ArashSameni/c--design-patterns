@@ -1,8 +1,4 @@
-﻿
-Console.WriteLine("Memento Pattern:");
-DesignPatterns.Memento.Usage.Run();
-Console.WriteLine("===================================\n");
+﻿using DesignPatterns;
 
-Console.WriteLine("State Pattern:");
-DesignPatterns.State.Usage.Run();
-Console.WriteLine("===================================\n");
+PatternRunner.Run(new DesignPatterns.Memento.Runner());
+PatternRunner.Run(new DesignPatterns.State.Runner());

@@ -1,8 +1,9 @@
 namespace DesignPatterns.Memento;
 
-public static class Usage
+[PatternName("Memento")]
+public class Runner : IRunnable
 {
-    public static void Run()
+    public void Run()
     {
         var editor = new Editor
         {
