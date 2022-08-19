@@ -2,6 +2,7 @@
 
 RunPattern(new DesignPatterns.Memento.Runner());
 RunPattern(new DesignPatterns.State.Runner());
+RunPattern(new DesignPatterns.Iterator.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
