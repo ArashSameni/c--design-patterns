@@ -1,6 +1,6 @@
 namespace DesignPatterns.Memento;
 
-public class Usage
+public static class Usage
 {
     public static void Run()
     {
