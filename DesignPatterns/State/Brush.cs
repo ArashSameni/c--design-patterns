@@ -1,5 +1,6 @@
 namespace DesignPatterns.State;
 
+// Concrete State
 public class Brush : ITool
 {
     // Handle
