@@ -1,5 +1,6 @@
 namespace DesignPatterns.Command;
 
+// Concrete Command
 public class ItalicCommand : IUndoableCommand
 {
     private readonly HtmlElement _element;
