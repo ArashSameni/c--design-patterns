@@ -1,6 +1,5 @@
 namespace DesignPatterns.Iterator;
 
-[PatternName("Iterator")]
 public class Runner : IRunnable
 {
     public void Run()

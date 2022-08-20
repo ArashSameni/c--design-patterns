@@ -16,7 +16,5 @@ void RunPattern(IRunnable runnablePattern)
 
 string GetPatternName(IRunnable runnablePattern)
 {
-    var patternNameAttribute = (PatternNameAttribute)runnablePattern.GetType()
-        .GetCustomAttributes(typeof(PatternNameAttribute), false)[0];
-    return patternNameAttribute.Name;
+    return runnablePattern.GetType().Namespace!.Split('.').Last();
 }

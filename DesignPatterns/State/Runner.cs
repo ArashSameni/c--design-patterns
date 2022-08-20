@@ -1,6 +1,5 @@
 namespace DesignPatterns.State;
 
-[PatternName("State")]
 public class Runner : IRunnable
 {
     public void Run()

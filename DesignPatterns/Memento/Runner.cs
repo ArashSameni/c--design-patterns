@@ -1,6 +1,5 @@
 namespace DesignPatterns.Memento;
 
-[PatternName("Memento")]
 public class Runner : IRunnable
 {
     public void Run()

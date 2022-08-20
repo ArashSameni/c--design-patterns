@@ -1,6 +1,5 @@
 namespace DesignPatterns.Strategy;
 
-[PatternName("Strategy")]
 public class Runner : IRunnable
 {
     public void Run()
