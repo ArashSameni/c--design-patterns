@@ -4,6 +4,7 @@ RunPattern(new DesignPatterns.Memento.Runner());
 RunPattern(new DesignPatterns.State.Runner());
 RunPattern(new DesignPatterns.Iterator.Runner());
 RunPattern(new DesignPatterns.Strategy.Runner());
+RunPattern(new DesignPatterns.TemplateMethod.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
