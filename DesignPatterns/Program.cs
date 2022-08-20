@@ -6,6 +6,7 @@ RunPattern(new DesignPatterns.Iterator.Runner());
 RunPattern(new DesignPatterns.Strategy.Runner());
 RunPattern(new DesignPatterns.TemplateMethod.Runner());
 RunPattern(new DesignPatterns.Command.Runner());
+RunPattern(new DesignPatterns.Observer.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
