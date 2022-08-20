@@ -8,6 +8,7 @@ RunPattern(new DesignPatterns.TemplateMethod.Runner());
 RunPattern(new DesignPatterns.Command.Runner());
 RunPattern(new DesignPatterns.Observer.Runner());
 RunPattern(new DesignPatterns.Mediator.Runner());
+RunPattern(new DesignPatterns.ChainOfResponsibility.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
