@@ -1,4 +1,5 @@
-﻿using DesignPatterns;
+﻿using System.Text.RegularExpressions;
+using DesignPatterns;
 
 RunPattern(new DesignPatterns.Memento.Runner());
 RunPattern(new DesignPatterns.State.Runner());
@@ -22,5 +23,10 @@ void RunPattern(IRunnable runnablePattern)
 
 string GetPatternName(IRunnable runnablePattern)
 {
-    return runnablePattern.GetType().Namespace!.Split('.').Last();
+    return AddSpaceBeforeCapitalLetters(runnablePattern.GetType().Namespace!.Split('.').Last());
+}
+
+string AddSpaceBeforeCapitalLetters(string text)
+{
+    return Regex.Replace(text, "([a-z])([A-Z])", "$1 $2");
 }
