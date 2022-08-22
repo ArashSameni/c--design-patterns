@@ -1,16 +1,18 @@
 ﻿using System.Text.RegularExpressions;
 using DesignPatterns;
 
-RunPattern(new DesignPatterns.Memento.Runner());
-RunPattern(new DesignPatterns.State.Runner());
-RunPattern(new DesignPatterns.Iterator.Runner());
-RunPattern(new DesignPatterns.Strategy.Runner());
-RunPattern(new DesignPatterns.TemplateMethod.Runner());
-RunPattern(new DesignPatterns.Command.Runner());
-RunPattern(new DesignPatterns.Observer.Runner());
-RunPattern(new DesignPatterns.Mediator.Runner());
-RunPattern(new DesignPatterns.ChainOfResponsibility.Runner());
-RunPattern(new DesignPatterns.Visitor.Runner());
+// Uncomment to see the result of the pattern
+
+// RunPattern(new DesignPatterns.Behavioral.Memento.Runner());
+// RunPattern(new DesignPatterns.Behavioral.State.Runner());
+// RunPattern(new DesignPatterns.Behavioral.Iterator.Runner());
+// RunPattern(new DesignPatterns.Behavioral.Strategy.Runner());
+// RunPattern(new DesignPatterns.Behavioral.TemplateMethod.Runner());
+// RunPattern(new DesignPatterns.Behavioral.Command.Runner());
+// RunPattern(new DesignPatterns.Behavioral.Observer.Runner());
+// RunPattern(new DesignPatterns.Behavioral.Mediator.Runner());
+// RunPattern(new DesignPatterns.Behavioral.ChainOfResponsibility.Runner());
+RunPattern(new DesignPatterns.Behavioral.Visitor.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
