@@ -13,7 +13,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Behavioral.Mediator.Runner());
 // RunPattern(new DesignPatterns.Behavioral.ChainOfResponsibility.Runner());
 // RunPattern(new DesignPatterns.Behavioral.Visitor.Runner());
-RunPattern(new DesignPatterns.Structural.Composite.Runner());
+// RunPattern(new DesignPatterns.Structural.Composite.Runner());
+RunPattern(new DesignPatterns.Structural.Adapter.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
