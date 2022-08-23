@@ -15,7 +15,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Behavioral.Visitor.Runner());
 // RunPattern(new DesignPatterns.Structural.Composite.Runner());
 // RunPattern(new DesignPatterns.Structural.Adapter.Runner());
-RunPattern(new DesignPatterns.Structural.Decorator.Runner());
+// RunPattern(new DesignPatterns.Structural.Decorator.Runner());
+RunPattern(new DesignPatterns.Structural.Facade.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
