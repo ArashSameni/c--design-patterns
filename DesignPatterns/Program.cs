@@ -18,7 +18,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Structural.Adapter.Runner());
 // RunPattern(new DesignPatterns.Structural.Decorator.Runner());
 // RunPattern(new DesignPatterns.Structural.Facade.Runner());
-RunPattern(new DesignPatterns.Structural.Flyweight.Runner());
+// RunPattern(new DesignPatterns.Structural.Flyweight.Runner());
+RunPattern(new DesignPatterns.Structural.Bridge.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
