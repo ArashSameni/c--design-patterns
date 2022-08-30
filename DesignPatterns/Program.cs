@@ -23,7 +23,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Structural.Proxy.Runner());
 
 // RunPattern(new DesignPatterns.Creational.Prototype.Runner());
-RunPattern(new DesignPatterns.Creational.Singleton.Runner());
+// RunPattern(new DesignPatterns.Creational.Singleton.Runner());
+RunPattern(new DesignPatterns.Creational.FactoryMethod.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
