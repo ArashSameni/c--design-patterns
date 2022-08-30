@@ -22,7 +22,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Structural.Bridge.Runner());
 // RunPattern(new DesignPatterns.Structural.Proxy.Runner());
 
-RunPattern(new DesignPatterns.Creational.Prototype.Runner());
+// RunPattern(new DesignPatterns.Creational.Prototype.Runner());
+RunPattern(new DesignPatterns.Creational.Singleton.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
