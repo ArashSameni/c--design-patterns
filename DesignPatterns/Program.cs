@@ -25,7 +25,8 @@ using DesignPatterns;
 // RunPattern(new DesignPatterns.Creational.Prototype.Runner());
 // RunPattern(new DesignPatterns.Creational.Singleton.Runner());
 // RunPattern(new DesignPatterns.Creational.FactoryMethod.Runner());
-RunPattern(new DesignPatterns.Creational.AbstractFactory.Runner());
+// RunPattern(new DesignPatterns.Creational.AbstractFactory.Runner());
+RunPattern(new DesignPatterns.Creational.Builder.Runner());
 
 void RunPattern(IRunnable runnablePattern)
 {
